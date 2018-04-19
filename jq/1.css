@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+a {
+  position: relative;
+}
+
+a div {
+  display: none;
+  background-image: url("./assets/tips.png");
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  cursor: default;
+  text-align: center;
+}
+
+a div p{
+  font:italic bold 14px/20px arial,sans-serif;
+  color: rgb(18, 19, 22);
+  display: block;
+  margin: 40px;
+}
